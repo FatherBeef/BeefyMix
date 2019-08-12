@@ -4,21 +4,32 @@ a {
   text-decoration: none;
 }
 
+/* On hover changes opacity */
+
 a:hover {
   transition: opacity 0.15s ease-in;
   opacity: 1;
   color: rgb(255, 255, 255);
-
 }
 
 html, body {
   height: 100vh;
+  display: block;
 }
 
 .navbar {
   font-family: 'Darker Grotesque', sans-serif;
   float: left;
   width: 20vw;
+  min-width: 300px;
   height: 100vh;
 }
 
+img {
+  position: relative;
+}
+
+.ul-wrapper {
+  position: relative;
+  top: -10vh;
+}
