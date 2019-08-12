@@ -11,7 +11,9 @@ export class NavComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function() {
 
+    })
   }
 
 }
