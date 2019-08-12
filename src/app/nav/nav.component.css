@@ -1,0 +1,11 @@
+html, body {
+  height: 100vh;
+}
+
+.navbar {
+  font-family: 'Darker Grotesque', sans-serif;
+  float: left;
+  width: 20vw;
+  height: 100vh;
+}
+
