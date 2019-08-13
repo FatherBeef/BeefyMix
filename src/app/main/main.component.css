@@ -1,0 +1,13 @@
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fade-from-left {
+
+}
