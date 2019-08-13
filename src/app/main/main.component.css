@@ -1,4 +1,6 @@
 .background-image {
+  position: relative;
+  z-index: 1;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -9,5 +11,19 @@
 }
 
 .fade-from-left {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+25,000000+41,000000+100&1+15,0+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 15%, rgba(0,0,0,0.88) 25%, rgba(0,0,0,0.69) 41%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 15%,rgba(0,0,0,0.88) 25%,rgba(0,0,0,0.69) 41%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,1) 15%,rgba(0,0,0,0.88) 25%,rgba(0,0,0,0.69) 41%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
 
+}
+
+
+h1 {
+  font-size: 10rem;
 }
