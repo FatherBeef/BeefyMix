@@ -1,5 +1,14 @@
-.title-box  {
+.title-box, .buttons, .button-block  {
   display: inline-block;
+}
+
+.buttons {
+  padding: 50px;
+}
+
+.button-block {
+
+
 }
 
 
