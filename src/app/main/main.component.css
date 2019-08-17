@@ -2,12 +2,27 @@
   display: inline-block;
 }
 
-.buttons {
-  padding: 50px;
+.columns {
+  align-items: center;
 }
 
-.button-block {
+#listenButton {
+  background-color: rgba(129, 0, 0, 0.507);
+}
 
+#listenButton:hover {
+  background-color: rgba(156, 2, 2, 0.829);
+  transition: 0.15s ease-in;
+
+}
+
+#contactButton {
+  background-color: rgba(70, 70, 70, 0.507);
+}
+
+#contactButton:hover {
+  background-color: rgba(44, 44, 44, 0.692);
+  transition: 0.15s ease-in;
 
 }
 
