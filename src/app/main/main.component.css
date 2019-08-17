@@ -2,7 +2,7 @@
   display: inline-block;
 }
 
-.columns {
+.columns, .titleContainer, h1  {
   align-items: center;
 }
 

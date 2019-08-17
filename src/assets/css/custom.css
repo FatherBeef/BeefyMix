@@ -1,12 +1,14 @@
-a {
+a, li {
   color: rgba(255, 255, 255);
   opacity: 0.5;
-  text-decoration: none;
+  text-decoration: none !important;
 }
+
+
 
 /* On hover changes opacity */
 
-a:hover {
+a:hover, li:hover {
   transition: opacity 0.15s ease-in;
   opacity: 1;
   color: rgb(255, 255, 255);
