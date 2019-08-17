@@ -1,0 +1,13 @@
+a {
+  color: rgba(255, 255, 255);
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+/* On hover changes opacity */
+
+a:hover {
+  transition: opacity 0.15s ease-in;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
