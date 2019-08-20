@@ -6,13 +6,17 @@
   align-items: center;
 }
 
+.columns {
+  min-height: 100vh;
+}
+
 #listenButton {
   background-color: rgba(129, 0, 0, 0.507);
 }
 
 #listenButton:hover {
   background-color: rgba(156, 2, 2, 0.829);
-  transition: 0.15s ease-in;
+  transition: 0.1s ease-in;
 
 }
 
@@ -32,7 +36,7 @@
   z-index: 1;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,7 +46,7 @@
 .fade-from-left {
   position: relative;
   z-index: 1;
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+25,000000+41,000000+100&1+15,0+100 */
 background: -moz-linear-gradient(left, rgba(0,0,0,1) 15%, rgba(0,0,0,0.88) 25%, rgba(0,0,0,0.69) 41%, rgba(0,0,0,0) 100%); /* FF3.6-15 */

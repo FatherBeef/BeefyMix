@@ -27,7 +27,8 @@
               "node_modules/bulma/css/bulma.min.css",
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css",
-              "src/assets/css/custom.css"
+              "src/assets/css/custom.css",
+              "../node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
